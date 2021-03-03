@@ -11,7 +11,7 @@
 #### 4. Open 'Tufts Friedman ggplot2 Workshop' (extract from ZIP depending on OS)
 #### 5. Choose the file that you will use to follow along with coding portion of the workshop:
 
-##### -.ppt: Not Interactive, Workshop Slides
+##### -PDF: Not Interactive, Workshop Slides
 ##### -HTML: Not interactive, click on the file and it will open in a browser page
 ##### -.nb: Interactive, Open with Rstudio, will open an executable notebook in Rstudio console
 ##### -.R: Interactive, Open with Rstudio, will open a code file that you will run
