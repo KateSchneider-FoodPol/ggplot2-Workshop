@@ -3,6 +3,8 @@ title: "ggplot2::workshop(...)"
 output:
   html_document:
     df_print: paged
+  html_notebook:
+    df_print: paged
 ---
 <style type="text/css">
   body{
@@ -12,8 +14,6 @@ output:
   
 #### Tufts Friedman Symposium 2021
 ##### written by: M.A. Hartwick
-
-
 
 ## Set up the environment
 ##### (check if tidyverse installed)
@@ -159,9 +159,9 @@ iris_clean %>%
 
 ## 6. Scales
 
-#### scale_y_continous(...), scale_x_discrete(...), scale_color_manual(...), scale_color_brewer(...)
+#### scale_y_continuous(...), scale_x_discrete(...), scale_color_manual(...), scale_color_brewer(...)
 ##### - Let's adjust the breaks in the y axis for each major break.
-##### - The data are continous so we use scale_y_continouus(...).
+##### - The data are continuous so we use scale_y_continouus(...).
 ```{r fig.height = 3.5, fig.width = 5.5, fig.align='center'}
 iris_clean %>%
   ggplot(.,aes(x = Trial, y = Sepal.Length, fill = Species)) +
@@ -170,8 +170,8 @@ iris_clean %>%
 ```
 
 ##### - Let's also expand the x-axis so the data fills the plotting area.
-##### - Remember, at this point the Trial data is still datatype continous,
-##### - So we use: scale_x_continous(...)
+##### - Remember, at this point the Trial data is still datatype continuous,
+##### - So we use: scale_x_continuous(...)
 ##### - What happens if we use scale_x_discrete(...)
 ```{r fig.height = 3.5, fig.width = 5.5, fig.align='center'}
 iris_clean %>%
@@ -203,7 +203,7 @@ colors()
 
 ##### - First we'll try to manually set our selected colors with scale_color_manual(...)
 ##### - That changed something, but what?
-##### - What's going on with our data that Trial is continous
+##### - What's going on with our data that Trial is continuous
 ##### - and it didn't use the colors argument?
 
 ```{r fig.height = 3.5, fig.width = 5.5, fig.align='center'}
@@ -348,7 +348,7 @@ iris_clean %>%
 ####### -Bargraph
 ####### -Trial axis breaks as ‘2010’, 2015’, ‘2020’
 ####### -Y axis at 2, 4, 6, 8
-####### -Ditch the points, and accomponying scale
+####### -Ditch the points, and accompanying scale
 ####### -Choose a different palette for species
 ####### -Dodge position
 ####### -Species in italics
@@ -380,7 +380,7 @@ iris_clean %>%
 ####### -Bargraph - choose the best option from the geoms we covered
 ####### -Trial axis breaks as 2010, 2015, 2020 - transform Trial column to character,use scale*
 ####### -Y axis at 2, 4, 6, 8 - Modify existing scale*
-####### -Ditch the points, and accomponying scale - delete the correct geom_*()
+####### -Ditch the points, and accompanying scale - delete the correct geom_*()
 ####### -Choose the correct scale and change color palette - Modify Existing Scale*
 ####### -Dodge position - set from in geom*
 ####### -Species in italics - modify the theme
@@ -415,7 +415,7 @@ iris_clean %>% # Faceted Width and Length - add a tidyr::pivot_longer(...) %>%
 ####### -Bargraph - choose the best option from the geoms we covered
 ####### -Trial axis breaks as 2010, 2015, 2020 - transform Trial column to character,use scale*
 ####### -Y axis at 2, 4, 6, 8 - Modify existing scale*
-####### -Ditch the points, and accomponying scale - delete the correct geom_*()
+####### -Ditch the points, and accompanying scale - delete the correct geom_*()
 ####### -Choose the correct scale and change color palette - Modify Existing Scale*
 ####### -Dodge position - set from in geom*
 ####### -Species in italics - modify the theme
