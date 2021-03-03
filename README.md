@@ -5,11 +5,11 @@
 ### To Get Started: 
 
 #### 1. Click on the GREEN 'CODE' button
-#### 2. select: download ZIP
+#### 2. Select: download ZIP
 
-### The 'Tufts Friedman ggplot2 Workshop' folder should now be in your downloads
-#### Open folder
-#### Choose the file that you will use to follow along with coding portion of the workshop:
+#### 3. Go to your 'downloads, the 'Tufts Friedman ggplot2 Workshop' folder should now be there
+#### 4. Open 'Tufts Friedman ggplot2 Workshop' (extract from ZIP depending on OS)
+#### 5. Choose the file that you will use to follow along with coding portion of the workshop:
 
 ##### -.ppt: Not Interactive, Workshop Slides
 ##### -HTML: Not interactive, click on the file and it will open in a browser page
