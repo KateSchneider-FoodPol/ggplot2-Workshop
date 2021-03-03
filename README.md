@@ -13,7 +13,8 @@
 
 ##### -PDF: Not Interactive, Workshop Slides
 ##### -HTML: Not interactive, click on the file and it will open in a browser page
-##### -.nb: Interactive, Open with Rstudio, will open an executable notebook in Rstudio console
+##### -HMTL.nb: *sort of* interactive, click on the file and it will open in a browser page
+##### -.RMD: Interactive, Open with Rstudio, will open an executable notebook in Rstudio console
 ##### -.R: Interactive, Open with Rstudio, will open a code file that you will run
 
 ### If all else fails: [Use this Link for the HTML](https://rpubs.com/meghartwick/733550)
