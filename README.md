@@ -1,11 +1,11 @@
 ## ggplot2::workshop(...)
 
-### All Workshop Materials are in the 'Tufts Friedman ggplot2 Workshop' folder
+#### All Workshop Materials are in the 'Tufts Friedman ggplot2 Workshop' folder
 
-## To Get Started: 
+### To Get Started: 
 ### Click on the GREEN 'CODE' button and select: download ZIP
 
-## The 'Tufts Friedman ggplot2 Workshop' folder should now be in your downloads
+### The 'Tufts Friedman ggplot2 Workshop' folder should now be in your downloads
 ### Open folder and choose the material that you will use to follow along
 ### with coding portion of the workshop
 
